@@ -19,7 +19,7 @@ function Navbar() {
             A digital jack-of-all-trades if you will. On one hand, I'm a passionate UI/UX Designer. On the other, I'm a versatile Fullstack Developer, coding and debugging my way to bring sleek. And if that wasn't enough, I've got a curious
             mind that's got me diving headfirst into the world of Machine Learning. I'm excited by the thought of blending my design, development skills with AI to create unique digital solutions
           </Text>
-          <Btn />
+          <Button>Hai</Button>
         </Flex>
       </Flex>
     </Flex>
