@@ -1,9 +1,9 @@
 import { Flex, Text } from "@chakra-ui/react";
 function Navbar() {
   return (
-    <Flex w="100%" maxW="1440" gap={16} align="center" justify="start" px={20} py={9}>
+    <Flex w="100%" maxW="1440" gap={16} align="center" justify="start" px={20} py={{ base: 6, lg: 9 }} display={{ base: "none", md: "flex" }}>
       <a href="">
-        <Text color="white" fontSize="sm">
+        <Text color="white" fontSize={{ base: "md" }}>
           Home
         </Text>
       </a>

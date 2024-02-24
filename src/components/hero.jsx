@@ -6,7 +6,7 @@ function Navbar() {
     <Flex height="100%" w="100%" maxW="1440" gap={16} align="center" justify="start" px={{ base: 6, md: 6, lg: 10 }} py={5}>
       {/* <Light></Light> */}
       <Flex align="center" justify="space-around" flexDir="row">
-        <Flex flexDir="column" maxW={{ base: "100%", md: "50%" }} gap={8}>
+        <Flex flexDir="column" maxW={{ base: "100%", md: "50%" }} gap={{ md: 6, xl: 6 }}>
           <Flex flexDir="column">
             <Text color="white" bgGradient="linear(to-l, #FFFFFF, #AEAEAE)" bgClip="text" fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }} fontWeight="bold">
               Charles Alexander
@@ -22,7 +22,7 @@ function Navbar() {
           <Button>Hai</Button>
         </Flex>
 
-        <Box width={{ md: 240, lg: 320, xl: 400 }} display={{ base: "none", md: "inline" }}>
+        <Box width={{ md: 240, lg: 320, xl: 360 }} display={{ base: "none", md: "inline" }}>
           <Image h="100%" objectFit="fit" src={heroImage} alt="Profile Picture" />
         </Box>
       </Flex>
