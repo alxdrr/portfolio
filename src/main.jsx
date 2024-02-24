@@ -55,6 +55,12 @@ const theme = extendTheme({
     },
   },
   textStyles: {
+    //   base: "0em", // 0px
+    //   sm: "30em", // ~480px. em is a relative unit and is dependant on the font size.
+    //   md: "48em", // ~768px
+    //   lg: "62em", // ~992px
+    //   xl: "80em", // ~1280px
+    //   "2xl": "96em", // ~1536px
     h1: {
       // you can also use responsive styles
       fontSize: ["48px", "72px"],
@@ -63,9 +69,9 @@ const theme = extendTheme({
       letterSpacing: "-2%",
     },
     p: {
-      fontSize: ["36px", "48px"],
+      fontSize: { base: "12px", md: "16px", lg: "20px" },
       fontWeight: "light",
-      lineHeight: "32px",
+      lineHeight: { base: "24px", md: "28px", lg: "38px" },
       letterSpacing: "2px",
     },
   },
