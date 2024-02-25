@@ -4,7 +4,7 @@ import Light from "./light";
 function Navbar() {
   return (
     <Flex height="100%" w="100%" maxW="1440" align="center" px={{ base: 6, md: 6, lg: 10 }}>
-      {/* <Light></Light> */}
+      <Light></Light>
       <Flex h="100%" w="100%" align="center" justify="space-around" flexDir={{ base: "column-reverse", md: "row" }}>
         <Flex flexDir="column" maxW={{ base: "100%", md: "50%" }} gap={{ base: 6, xl: 10 }} align={{ base: "center", md: "start" }}>
           <Flex w="100%" flexDir="column" align={{ base: "center", md: "start" }}>
