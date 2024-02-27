@@ -1,4 +1,4 @@
-import { Flex, Text, Image, Spacer, Button, Box } from "@chakra-ui/react";
+import { Flex, Text, Image, Button, Box } from "@chakra-ui/react";
 import heroImage from "../assets/Image.svg";
 import Light from "./light";
 function Navbar() {
