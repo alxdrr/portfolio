@@ -1,5 +1,5 @@
-import Navbar from "./components/navbar";
-import Hero from "./components/hero";
+import Navbar from "../components/navbar";
+import Hero from "../components/hero";
 import { Flex } from "@chakra-ui/react";
 
 function App() {

@@ -1,6 +1,6 @@
 import { Flex, Text, Image, Button, Box } from "@chakra-ui/react";
 import heroImage from "../assets/Image.svg";
-import Light from "./light";
+import Light from "./ui/light";
 function Navbar() {
   return (
     <Flex height="100%" w="100%" maxW="1440" align="center" px={{ base: 6, md: 6, lg: 10 }}>
